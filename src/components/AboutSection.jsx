@@ -28,7 +28,7 @@ let AboutSection = (props) => {
         <button>See our work</button>
       </div>
       <div className="image">
-        <img src={about} alt="photo of incredible and green Tigre" />
+        <img src={about} alt="incredible and green Tigre" />
       </div>
     </div>
   );

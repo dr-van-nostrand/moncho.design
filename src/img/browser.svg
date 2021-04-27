@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="97px" height="130px" viewBox="0 0 97 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 9@2x</title>
+    <defs>
+        <polygon id="path-1" points="0 0 96.5553366 0 96.5553366 129 0 129"></polygon>
+        <polygon id="path-3" points="0 129 96 129 96 0 0 0"></polygon>
+    </defs>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-974.000000, -2607.000000)">
+            <g id="SERVICES" transform="translate(0.000000, 2162.023438)">
+                <g id="Group-9" transform="translate(974.000000, 445.000000)">
+                    <rect id="Rectangle" fill="#FDD0B3" x="3" y="34" width="89" height="93"></rect>
+                    <rect id="Rectangle" fill="#F8E16C" x="5" y="3" width="87" height="29"></rect>
+                    <g id="Group-3">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M88.3221975,0 L8.23333119,0 C3.68585594,0 -0.000144059406,3.66742222 -0.000144059406,8.19197778 L-0.000144059406,120.808022 C-0.000144059406,125.332578 3.68585594,129 8.23333119,129 L88.3221975,129 C92.8696728,129 96.5556728,125.332578 96.5556728,120.808022 L96.5556728,8.19197778 C96.5556728,3.66742222 92.8696728,0 88.3221975,0 M88.3221975,6.68888889 C89.1548609,6.68888889 89.8329005,7.36303333 89.8329005,8.19197778 L89.8329005,120.808022 C89.8329005,121.636967 89.1548609,122.311111 88.3221975,122.311111 L8.23333119,122.311111 C7.40018762,122.311111 6.72262822,121.636967 6.72262822,120.808022 L6.72262822,8.19197778 C6.72262822,7.36303333 7.40018762,6.68888889 8.23333119,6.68888889 L88.3221975,6.68888889" id="Fill-1" fill="#8E8EA8" mask="url(#mask-2)"></path>
+                    </g>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <polygon id="Fill-4" fill="#8E8EA8" mask="url(#mask-4)" points="5 37 92 37 92 30 5 30"></polygon>
+                    <path d="M20,14 C17.239,14 15,16.2385 15,19 C15,21.7615 17.239,24 20,24 C22.7615,24 25,21.7615 25,19 C25,16.2385 22.7615,14 20,14" id="Fill-6" fill="#8E8EA8" mask="url(#mask-4)"></path>
+                    <path d="M34,14 C31.239,14 29,16.2385 29,19 C29,21.7615 31.239,24 34,24 C36.7615,24 39,21.7615 39,19 C39,16.2385 36.7615,14 34,14" id="Fill-7" fill="#8E8EA8" mask="url(#mask-4)"></path>
+                    <path d="M49,14 C46.239,14 44,16.2385 44,19 C44,21.7615 46.239,24 49,24 C51.7615,24 54,21.7615 54,19 C54,16.2385 51.7615,14 49,14" id="Fill-8" fill="#8E8EA8" mask="url(#mask-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
