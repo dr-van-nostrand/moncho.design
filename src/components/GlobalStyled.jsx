@@ -22,11 +22,12 @@ button{
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border: 0 none currentcolor;
-    background: #00c49a;
-    color: white;
+    background-color: #F8E16C;
+
+    color: #8E8EA8;
     transition: all 0.5s ease;
     &:hover{
-        background-color: #8e8ea8;
+        background: #00c49a;
         color: white;
     }
 }
@@ -35,11 +36,16 @@ button{
         font-weight: 900;
         font-size:4rem;
         color: #8E8EA8;
+        font-family: "kanit";
+        font-weight: 900;
+        text-transform: uppercase;
 
     }
 
     h3{
-        color: #8E8EA8;
+        font-family: "Noto serif";
+        font-size: 3em;
+        font-weight: 400;
     }
 
     p{
@@ -47,6 +53,8 @@ button{
         color: #8E8EA8;
         font-size:1.4rem;
         line-height: 150%;
+        font-family: "Rubik", sans-serif;
+
     }
 
     h4{
@@ -60,7 +68,7 @@ button{
 
     span{
         font-weight:bold;
-        color: #00c49a;    
+        color: #1BE7FF;    
     }
 `;
 

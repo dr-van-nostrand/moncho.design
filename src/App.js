@@ -2,7 +2,7 @@ import React from "react";
 import AboutUs from "./pages/AboutUs";
 //global style
 import GlobalStyle from "./components/GlobalStyled";
-
+//importar google fonts
 
 function App() {
   return (

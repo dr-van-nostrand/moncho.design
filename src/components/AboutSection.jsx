@@ -1,6 +1,10 @@
 import React from "react";
 import about from "../img/about.jpg";
+import factory from "../img/factory.svg";
 import styled from "styled-components";
+
+
+import {StyledDescription, StyledImage, StyleHide } from "../styles";
 
 let AboutSection = (props) => {
   return (
@@ -8,17 +12,17 @@ let AboutSection = (props) => {
       <StyledDescription>
         <div className="title">
           <div className="hide">
-            <h2>We are</h2>
+            <h2>About us</h2>
           </div>
           <StyleHide>
-            <h2>
-              web <span>developers</span> and Designers
-            </h2>
+            <h3>
+              We are web <span>developers</span>
+            </h3>
           </StyleHide>
           <StyleHide>
-            <h2>
-              living in Beautiful <span>Tigre</span>.
-            </h2>
+            <h3>
+              living in Beautiful Tigre.
+            </h3>
           </StyleHide>
         </div>
         <p>
@@ -28,46 +32,32 @@ let AboutSection = (props) => {
         </p>
         <button>See our work</button>
       </StyledDescription>
-      <StyledImage>
-        <img src={about} alt="incredible and green Tigre" />
-      </StyledImage>
+      <StyledImageAbout>
+        <img src={factory} alt="incredible and green Tigre" />
+      </StyledImageAbout>
     </StyledAbout>
   );
 };
 
-//styled components
-const StyledAbout = styled.div`
+export const StyledAbout = styled.div`
   min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 5rem 10rem;
   color: white;
-  background-color: #8e8ea8;
+  background-image: url(${about});
+  background-size: cover;
+  background-repeat: no-repeat;
 `;
 
-const StyledDescription = styled.div`
-  flex: 1;
-  padding-right: 5rem;
-  h2 {
-    color: #f8e16c;
-  }
-  p {
-    color: white;
-  }
-`;
-
-const StyledImage = styled.div`
+export const StyledImageAbout = styled.div`
   flex: 1;
   overflow: hidden;
   img {
-    width: 100%;
-    height: 100vh;
+    width: 80%;
+    height: 60vh;
+    object-fit: cover;
   }
 `;
-
-const StyleHide = styled.div`
-  overflow: hidden;
-`;
-
 export default AboutSection;
