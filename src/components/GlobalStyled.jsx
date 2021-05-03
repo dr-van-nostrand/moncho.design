@@ -58,6 +58,10 @@ button{
         line-height: 150%;
         font-family: "Rubik", sans-serif;
     }
+    li{
+        color: #9d9cb2;
+        font-family: "Rubik", sans-serif;
+    }
 
     h4{
         font-weight:bold;
