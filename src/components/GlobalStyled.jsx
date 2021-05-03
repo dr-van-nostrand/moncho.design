@@ -47,14 +47,16 @@ button{
         font-size: 3em;
         font-weight: 400;
     }
-
+    h4{
+        font-family: "Noto serif";
+        font-size: 2rem;
+    }
     p{
         padding: 3rem 0rem;
         color: #8E8EA8;
-        font-size:1.4rem;
+        font-size:1rem;
         line-height: 150%;
         font-family: "Rubik", sans-serif;
-
     }
 
     h4{

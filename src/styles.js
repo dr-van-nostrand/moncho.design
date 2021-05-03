@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 //styled components
 export const Styled = styled.div`
+  justify-content: center;
   min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5rem 10rem;
+  padding: 4rem 4rem;
   color: white;
 `;
 

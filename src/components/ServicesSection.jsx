@@ -15,13 +15,14 @@ let ServicesSection = (props) => {
     <div>
       <StyledServices>
         <StyledDescription>
-          <h2>
+          <h2>Our Services</h2>
+          <h3>
             Let's <span>build</span> something awesome
-          </h2>
+          </h3>
           <Cards>
             <Card>
               <div className="icon">
-                <img src={cart} alt="carrito de compras" />
+                <img className="iconSvg" src={cart} alt="carrito de compras" />
                 <h3>Shopify Customization</h3>
               </div>
               <p>
@@ -32,7 +33,7 @@ let ServicesSection = (props) => {
             </Card>
             <Card>
               <div className="icon">
-                <img src={pencil} alt="toll for design" />
+                <img className="iconSvg" src={pencil} alt="toll for design" />
                 <h3>Logotype Design</h3>
               </div>
               <p>
@@ -40,10 +41,10 @@ let ServicesSection = (props) => {
                 Sprints Systems Design Digital Product Strategy Technology
                 Architecture.
               </p>
-              </Card>
+            </Card>
             <Card>
               <div className="icon">
-                <img src={website} alt="navegador web" />
+                <img className="iconSvg" src={website} alt="navegador web" />
                 <h3>Website Design</h3>
               </div>
               <p>
@@ -51,10 +52,10 @@ let ServicesSection = (props) => {
                 Sprints Systems Design Digital Product Strategy Technology
                 Architecture.
               </p>
-              </Card>
+            </Card>
             <Card>
               <div className="icon">
-                <img src={software} alt="codigo de programacion" />
+                <img className="iconSvg" src={software} alt="codigo de programacion" />
                 <h3>Software Development</h3>
               </div>
               <p>
@@ -62,7 +63,7 @@ let ServicesSection = (props) => {
                 Sprints Systems Design Digital Product Strategy Technology
                 Architecture.
               </p>
-              </Card>
+            </Card>
           </Cards>
         </StyledDescription>
         <StyledImage>
@@ -74,12 +75,17 @@ let ServicesSection = (props) => {
 };
 
 const StyledServices = styled(Styled)`
+
   h2 {
-    padding-bottom: 5rem;
+    color: #9d9cb2;
+  }
+  h3 {
+    color: #9d9cb2;
   }
   p {
     width: 70%;
     padding: 2rem 0rem 4rem 0rem;
+    color: #9d9cb2;
   }
 `;
 const Cards = styled.div`
@@ -88,19 +94,20 @@ const Cards = styled.div`
 `;
 
 const Card = styled.div`
+  width: 25%;
   flex-basis: 15rem;
   .icon {
     display: flex;
     align-items: center;
-    h3{
-      margin-left: 1rem;
-      background: white;
-      color: black;
-      padding: 1rem;
+    img{
+      height: 70px;
+    }
+    h3 {
+      font-size:  1.5rem;
+      margin-left: 0.5rem;
+      color: #9d9cb2;
     }
   }
 `;
-
-
 
 export default ServicesSection;
