@@ -7,6 +7,7 @@ import pencil from "../img/pencil.svg";
 import website from "../img/browser.svg";
 import software from "../img/code.svg";
 import home2 from "../img/services.jpg";
+
 //styles
 import { Styled, StyledDescription, StyledImage, StyleHide } from "../styles";
 

@@ -13,21 +13,21 @@ let OurWork = (props) => {
       <Movie>
         <h2>The Korn Characters</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/work/korn">
           <img src={korn} alt="korn" href="" />
         </Link>
       </Movie>
       <Movie>
         <h2>Tangram Building</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/work/tangram">
           <img src={tangram} alt="tangram" href="" />
         </Link>
       </Movie>
       <Movie>
         <h2>Yumit Project</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/work/yumit">
           <img src={yumit} alt="yumit" href="" />
         </Link>
       </Movie>
