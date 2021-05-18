@@ -7,9 +7,13 @@ import korn from "../img/korn-m.jpg";
 import tangram from "../img/tangram-m.jpg";
 import yumit from "../img/yumit-m.jpg";
 
+//import Animations
+import { motion } from "framer-motion";
+import { pageAnimation } from "./Animation";
+
 let OurWork = (props) => {
   return (
-    <Work>
+    <Work exit="exit" variants={pageAnimation} initial="hidden" animate="show">
       <Movie>
         <h2>The Korn Characters</h2>
         <div className="line"></div>
@@ -35,7 +39,7 @@ let OurWork = (props) => {
   );
 };
 
-const Work = styled.div`
+const Work = styled(motion.div)`
   min-width: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;

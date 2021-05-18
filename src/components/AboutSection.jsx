@@ -2,29 +2,34 @@ import React from "react";
 import about from "../img/about.jpg";
 import factory from "../img/factory.svg";
 import styled from "styled-components";
+//framer motion
+import { motion } from "framer-motion";
 
-
-import {StyledDescription, StyledImage, StyleHide } from "../styles";
+import { StyledDescription, StyledImage, StyleHide } from "../styles";
 
 let AboutSection = (props) => {
+
   return (
     <StyledAbout>
       <StyledDescription>
-        <div className="title">
+        <motion.div
+   
+        >
           <div className="hide">
-            <h2>About us</h2>
+            <motion.h2 >About us</motion.h2>
           </div>
           <StyleHide>
-            <h3>
+            <motion.h3 >
               We are web <span>developers</span>
-            </h3>
+            </motion.h3>
           </StyleHide>
           <StyleHide>
-            <h3>
+            <motion.h3 >
+        
               living in Beautiful Tigre.
-            </h3>
+            </motion.h3>
           </StyleHide>
-        </div>
+        </motion.div>
         <p>
           I’m a graphic designer from Buenos Aires. I have been working as a Web
           and Digital Designer since 2006 for different agencies and clients,

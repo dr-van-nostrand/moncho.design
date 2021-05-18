@@ -2,13 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import { Styled } from "../styles";
 import { Link } from "react-router-dom";
+import logo from "../img/logo.svg";
+
 
 let Nav = (props) => {
   return (
     <StyledNav>
       <h1>
         <Link id="logo" to="/">
-          Moncho.Design
+          <img src={logo} alt="incredible and green Tigre" />
         </Link>
       </h1>
       <ul>
