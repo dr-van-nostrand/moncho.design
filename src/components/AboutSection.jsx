@@ -6,36 +6,42 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import { StyledDescription, StyledImage, StyleHide } from "../styles";
 import { titleAnim, fade, photoAnim } from "../pages/Animation";
+import Wave from "./Wave";
 
 let AboutSection = (props) => {
   return (
     <StyledAbout>
       <StyledDescription>
         <motion.div>
-        <StyleHide>
+          <StyleHide>
             <motion.h2 variants={titleAnim}>About us</motion.h2>
-            </StyleHide>
+          </StyleHide>
           <StyleHide>
             <motion.h3 variants={titleAnim}>
               We are web <span>developers</span>
             </motion.h3>
           </StyleHide>
           <StyleHide>
-            <motion.h3 variants={titleAnim}>             
-              living in Beautiful Tigre.            
+            <motion.h3 variants={titleAnim}>
+              living in Beautiful Tigre.
             </motion.h3>
           </StyleHide>
         </motion.div>
-        <motion.p variants={ fade }>
+        <motion.p variants={fade}>
           I’m a graphic designer from Buenos Aires. I have been working as a Web
           and Digital Designer since 2006 for different agencies and clients,
           Nationally and internationally.
         </motion.p>
-        <motion.button variants={ fade }>See our work</motion.button>
+        <motion.button variants={fade}>See our work</motion.button>
       </StyledDescription>
       <StyledImageAbout>
-        <motion.img variants={ photoAnim } src={factory} alt="incredible and green Tigre" />
+        <motion.img
+          variants={photoAnim}
+          src={factory}
+          alt="incredible and green Tigre"
+        />
       </StyledImageAbout>
+      <Wave />
     </StyledAbout>
   );
 };
@@ -54,6 +60,8 @@ export const StyledAbout = styled.div`
 
 export const StyledImageAbout = styled.div`
   flex: 1;
+  z-index: 2;
+
   overflow: hidden;
   img {
     width: 80%;

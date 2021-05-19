@@ -14,6 +14,7 @@ export const Styled = styled.div`
 export const StyledDescription = styled.div`
   flex: 1;
   padding-right: 5rem;
+  z-index: 2;
   h2 {
     color: #f8e16c;
   }
@@ -23,6 +24,7 @@ export const StyledDescription = styled.div`
 `;
 
 export const StyledImage = styled.div`
+  z-index: 2;
   flex: 1;
   overflow: hidden;
   img {
