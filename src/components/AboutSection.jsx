@@ -4,41 +4,37 @@ import factory from "../img/factory.svg";
 import styled from "styled-components";
 //framer motion
 import { motion } from "framer-motion";
-
 import { StyledDescription, StyledImage, StyleHide } from "../styles";
+import { titleAnim, fade, photoAnim } from "../pages/Animation";
 
 let AboutSection = (props) => {
-
   return (
     <StyledAbout>
       <StyledDescription>
-        <motion.div
-   
-        >
-          <div className="hide">
-            <motion.h2 >About us</motion.h2>
-          </div>
+        <motion.div>
+        <StyleHide>
+            <motion.h2 variants={titleAnim}>About us</motion.h2>
+            </StyleHide>
           <StyleHide>
-            <motion.h3 >
+            <motion.h3 variants={titleAnim}>
               We are web <span>developers</span>
             </motion.h3>
           </StyleHide>
           <StyleHide>
-            <motion.h3 >
-        
-              living in Beautiful Tigre.
+            <motion.h3 variants={titleAnim}>             
+              living in Beautiful Tigre.            
             </motion.h3>
           </StyleHide>
         </motion.div>
-        <p>
+        <motion.p variants={ fade }>
           I’m a graphic designer from Buenos Aires. I have been working as a Web
           and Digital Designer since 2006 for different agencies and clients,
           Nationally and internationally.
-        </p>
-        <button>See our work</button>
+        </motion.p>
+        <motion.button variants={ fade }>See our work</motion.button>
       </StyledDescription>
       <StyledImageAbout>
-        <img src={factory} alt="incredible and green Tigre" />
+        <motion.img variants={ photoAnim } src={factory} alt="incredible and green Tigre" />
       </StyledImageAbout>
     </StyledAbout>
   );
